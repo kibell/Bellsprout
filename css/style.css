@@ -1,0 +1,191 @@
+*,html,body
+{
+  margin:0;
+  padding:0;
+
+}
+
+body{
+  height: 3000px;
+}
+header{
+
+  height: 112px;
+  line-height: 112px;
+  position:fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.secondary
+{
+  background-color: deepskyblue;
+  box-shadow: 0px 0px 17px 0px;
+  transition: all 0.5s ease-in;
+
+}
+
+ul
+{list-style: none;
+  
+}
+
+ul li{
+display: inline-block;
+
+
+}
+
+header nav{
+  float:right;
+
+}
+
+.logo img
+{ 
+  margin-top: 30px
+
+}
+
+header nav ul li a{
+
+  padding-right:30px;
+  font-weight: bold;
+  color:white;
+  transition: all 0.5s;
+}
+
+header nav ul li a:hover{
+
+  text-decoration: none;
+  color:red
+}
+
+.img1{
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(../images/Canva\ -\ Photo\ Of\ Rocky\ Mountain.jpg);
+  background-size: 100% 100%;
+}
+
+.slider, .slider ul, .slider ul li{
+  height:710px;
+  width:100%;
+  color:white;
+  text-align: center;
+}
+
+.slider h2{
+ font-weight: bold;
+ margin-top: 270px
+}
+
+.slider span
+{
+  color:orange
+}
+
+.slider a 
+{
+padding: 10px 40px;
+background-color: orange;
+margin-right: 10px;
+
+}
+
+.slider a.btn-half{
+background-color: deepskyblue;
+color:white
+
+}
+
+.slider a.btn-full
+{
+  background-color: orange;
+  color: white;
+}
+
+.intro-area
+{
+  position: relative;
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.sub-heading
+{
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.sub-heading:before
+{
+  content:"";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -25;
+  width: 4%;
+  height: 1px;
+  background-color: deepskyblue;
+  z-index: 1;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+
+  
+
+}
+
+.sub-heading:hover:before
+{
+  width: 24%;
+  margin-left: -12%;
+
+}
+
+.sub-heading:after
+{
+  content:"";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12%;
+  width:24%;
+  height:1px;
+  background-color: #e1e1e1;
+}
+
+.sub-heading p
+{
+  color: #010101;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+.intro-block
+{
+  position: relative;
+  background: #f7f7f7;
+  margin: 50px 0px 0px;
+  padding: 70px 25px 40px;
+  text-align: center;
+
+}
+
+.intro-block:hover, .intro-block.active
+{background: #0aabe1;
+
+}
+
+.intro-block:hover
+{
+  transition: .6s ease;
+  -webkit-transition: .6s ease;
+  -moz-transition: .6s ease;
+  -o-transition: .6s ease;
+  -ms-transition: .6s ease;
+
+}
