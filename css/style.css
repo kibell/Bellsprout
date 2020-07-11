@@ -5,6 +5,7 @@
 
 }
 
+
 body{
   height: 3000px;
 }
@@ -42,16 +43,16 @@ display: inline-block;
 }
 
 
-header nav{
-  float:right;
 
-}
+
 
 .logo img
 { 
   margin-top: 30px
 
 }
+
+
 
 header nav ul li a{
 
@@ -60,8 +61,12 @@ header nav ul li a{
   transition: all 0.5s;
   font-size: 15px;
   line-height: 15px;
-  font-family:  cursive;
+  
 
+}
+
+header nav{
+  float: right;
 }
 
 header nav ul li a:hover{
