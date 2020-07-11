@@ -9,8 +9,9 @@ body{
   height: 3000px;
 }
 
+
 p,  a{
-  font-family: 'Bangers', cursive;
+  
 }
 header{
 
@@ -23,7 +24,7 @@ header{
 
 .secondary
 {
-  background: linear-gradient( to right, rgb(59, 59, 59), rgb(73, 4, 82) ) ;
+  background: linear-gradient( to right, rgb(0, 0, 0), rgb(73, 4, 82) ) ;
   box-shadow: 0px 0px 17px 0px;
   transition: all 0.5s ease-in;
 
@@ -40,6 +41,7 @@ display: inline-block;
 
 }
 
+
 header nav{
   float:right;
 
@@ -54,9 +56,12 @@ header nav{
 header nav ul li a{
 
   padding-right:30px;
-  font-weight: bold;
-  color:white;
+  color:#ffffff;
   transition: all 0.5s;
+  font-size: 15px;
+  line-height: 15px;
+  font-family:  cursive;
+
 }
 
 header nav ul li a:hover{
@@ -66,12 +71,13 @@ header nav ul li a:hover{
 }
 
 .img1{
-  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(../images/“Growth\ occurs\ when\ one\ goes\ beyond\ one’s\ limits.\ Realizing\ that\ is\ also\ part\ of\ training.”\ –\ \(1\).png);
-  background-size: 100% 100%;
+  background-image: url(../images/purple.png);
+  width: 100%;
 }
 
+
 .slider, .slider ul, .slider ul li{
-  height:710px;
+  height:1010px;
   width:100%;
   color:white;
   text-align: center;
@@ -721,3 +727,108 @@ padding-left: 25px;
   width:220px;
   margin: 0;
 }
+
+.sign {
+  padding-top: 40px;
+  color: #8C55AA;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.un {
+width: 76%;
+color: rgb(255, 255, 255);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+
+margin:auto;
+text-align: center;
+
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.pass {
+      width: 76%;
+color: rgb(255, 255, 255);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+
+text-align: center;
+margin:auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+  
+}
+
+.submit {
+cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #9C27B0, #E040FB);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 5%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  padding-top: 15px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  text-decoration: none
+}
+
+.main {
+  background-color:#5c1a64f3;
+  width: 300px;
+  height: 300px;
+  margin-left:auto;
+  margin-right: 520px;
+  margin-top: 400px;
+  border: 2px solid #460d4e;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  border:solid 3px white
+  
+}
+
+@media (max-width: 600px) {
+  .main {
+      border-radius: 0px;
+  }
+  
