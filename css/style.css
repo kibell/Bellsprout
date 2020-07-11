@@ -72,7 +72,7 @@ header nav ul li a:hover{
 
 .img1{
   background-image: url(../images/purple.png);
-  width: 100%;
+  background-size: 100% 100%;
 }
 
 
