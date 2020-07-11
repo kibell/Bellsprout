@@ -8,6 +8,10 @@
 body{
   height: 3000px;
 }
+
+p,  a{
+  font-family: 'Bangers', cursive;
+}
 header{
 
   height: 112px;
@@ -19,7 +23,7 @@ header{
 
 .secondary
 {
-  background-color: deepskyblue;
+  background: linear-gradient( to right, rgb(59, 59, 59), rgb(73, 4, 82) ) ;
   box-shadow: 0px 0px 17px 0px;
   transition: all 0.5s ease-in;
 
@@ -58,11 +62,11 @@ header nav ul li a{
 header nav ul li a:hover{
 
   text-decoration: none;
-  color:red
+  color:rgb(9, 177, 9);
 }
 
 .img1{
-  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(../images/Canva\ -\ Photo\ Of\ Rocky\ Mountain.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(../images/“Growth\ occurs\ when\ one\ goes\ beyond\ one’s\ limits.\ Realizing\ that\ is\ also\ part\ of\ training.”\ –\ \(1\).png);
   background-size: 100% 100%;
 }
 
@@ -92,7 +96,8 @@ margin-right: 10px;
 }
 
 .slider a.btn-half{
-background-color: deepskyblue;
+background-color: rgb(36, 3, 63);
+border: solid green;
 color:white
 
 }
@@ -261,5 +266,458 @@ color: white;
   float: left;
   padding: 30px 0;
   text-align: center;
-  bodrer-right
+  border-right: 1px solid #65c8e5;;
+  border-bottom: 1px solid #65c8e5;
+  transition: .3s ease;
+ -webkit-transition: .3s ease;
+ -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+
+}
+
+.feature-block:after{
+  content:"";
+  display:table;
+}
+
+.feature-icon{
+display: inline-block;
+margin-bottom: 20px; 
+}
+
+.single-feature i.fab{
+
+  border: 2px solid #fff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: deepskyblue;
+  color:white;
+  width:64px;
+  height:64px;
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+ transition: .3s ease;
+}
+
+.feature-block:hover .single-feature
+{
+border-color: white;
+transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+   -o-transition: .3s ease;
+   -ms-transition: .3s ease;
+ transition: .3s ease;
+
+}
+.single-feature:hover .feature-icon .fab 
+{
+  border: 2px solid #00a7dd;
+  background: white;
+  color: deepskyblue;
+}
+
+
+.single-feature:nth-of-type(even)
+{
+  border-right: none;
+}
+
+.single-feature:nth-last-child(2)
+{
+  border-bottom: none;
+}
+
+.single-feature:last-child
+{
+  border-bottom: none;
+}
+
+.feature-area 
+{
+  padding: 100px 0;
+}
+
+.feature-mockup
+{
+  bottom: -132px;
+  position: relative;
+  width: 700px;
+}
+
+.title .sub-heading p
+{
+  color:white
+}
+
+.more-feature .title .sub-heading p
+{
+  color:darkgray
+}
+
+
+.more-feature .title  h2
+{
+  color: black;
+}
+
+.more-feature
+{
+  padding: 100px 0px;
+}
+
+.feature-list ul 
+{
+list-style: none;
+
+}
+
+.feature-list li
+{
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 80px;
+}
+
+.feature-list li:hover i
+{
+color:white;
+background-color: deepskyblue;
+-webkit-transition: .3s ease;
+-moz-transition: .3s ease;
+ -o-transition: .3s ease;
+ -ms-transition: .3s ease;
+transition: .3s ease;
+
+}
+
+.feature-icon
+{
+  position: absolute;
+  left:0;
+
+}
+
+.feature-icon i 
+{
+  width:63px;
+  height: 63px;
+  text-align: center;
+  font-size:30px;
+  background: white;
+  color: deepskyblue;
+  border-radius: 50%;
+  border: 2px solid deepskyblue;
+  line-height: 63px;
+}
+
+.feature-details h3
+{
+  color: deepskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.feature-details p 
+{
+  color:grey; 
+  font-weight: 200;
+
+}
+
+.more-feature img
+{
+  margin-left:70px;
+}
+
+.testimony
+{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/Canva\ -\ Photo\ Of\ Rocky\ Mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top:120px ;
+  padding-bottom:120px ;
+  color: white;
+  margin-top: -100px;
+  
+}
+
+.testimony .carousel-indicators
+{
+  bottom: -60px;
+
+}
+
+.testimony .sub-heading p{
+  color: white;
+}
+
+.carousel-inner img
+{
+width: 150px;
+height:150px;
+border-radius: 100%;
+border:2px solid deepskyblue;
+padding: 5px;
+}
+
+.testimony .carousel-indicators li.active 
+{
+  background-color: deepskyblue;
+
+}
+
+.testimony .carousel-indicators li
+{
+  border: 2px solid deepskyblue;
+}
+
+.team-area
+{
+  padding: 100px 0px;
+}
+
+.team-area .sub-heading 
+{
+  margin-bottom: 100px;
+
+}
+
+.team-man
+{
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: -50px;
+  overflow: hidden;
+  min-height: 100px;
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  border: 10px solid deepskyblue;
+  border-radius: 50%;
+
+
+}
+
+.team-man img
+{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 50%;
+}
+
+.team-block h3
+{
+  color: #00a7dd;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 70px;
+  margin-bottom: 5px;
+}
+
+.team-block span 
+{
+  color: grey;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0.025em;
+  
+}
+
+.team-block p 
+{
+  color:grey;
+  font-size: 14px;
+  padding: 25px 15px;
+  line-height: 24px;
+}
+
+.team-de
+{
+  background-color: #f5f5f5;
+
+}
+
+.team-social
+{
+  text-align: center;
+  padding-bottom: 15px;
+
+}
+
+.team-social a 
+{
+  margin: 0px 6px;
+
+}
+
+.team-social i 
+{
+  height: 40px;
+  width: 40px;
+  background: white;
+  text-align: center;
+  color:deepskyblue;
+  border-radius: 50%;
+  border: 3px solid deepskyblue;
+  padding-top: 10px;
+}
+
+.team-block
+{
+  text-align: center;
+  position: relative;
+}
+
+.team-block:hover .team-de
+{
+  background-color: deepskyblue;
+  color: white;
+  -webkit-transition: .3s ease;
+-moz-transition: .3s ease;
+ -o-transition: .3s ease;
+ -ms-transition: .3s ease;
+transition: .3s ease;
+
+}
+
+.team-block:hover .team-title h3,
+.team-block:hover .team-title span
+{
+color: white;
+-webkit-transition: .4s ease;
+-moz-transition: .4s ease;
+ -o-transition: .4s ease;
+ -ms-transition: .4s ease;
+transition: .4s ease;
+
+
+
+}
+
+.team-block:hover .team-de p 
+{
+  color: white;
+  -webkit-transition: .5s ease;
+-moz-transition: .5s ease;
+ -o-transition: .5s ease;
+ -ms-transition: .5s ease;
+transition: .5s ease;
+
+}
+
+.team-block:hover .team-social i 
+{
+  border-color: white;
+  background-color: deepskyblue;
+  color: white;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+   -o-transition: .5s ease;
+   -ms-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.contact-area
+{
+  padding: 100px 0px;
+
+}
+
+
+.divider
+{
+  border-right: 1px solid grey;
+}
+
+.contact-area h3
+{
+  text-transform: uppercase;
+  margin-bottom: 18px;
+   
+}
+.contact-area h4
+{
+color: #3a3a3a;
+font-weight: 700;
+text-transform: capitalize;
+margin-bottom: 4px;
+letter-spacing: 0.025em;
+}
+
+
+.contact-area span 
+{display: block;
+  color: #3a3a3a;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: .025em
+
+
+}
+
+.contact-area ul li
+{
+  overflow: hidden;
+  margin-bottom: 25px;
+
+
+}
+
+.contact-area ul li:last-child
+{
+  
+  margin-bottom: 0;
+}
+
+.contact-address ul li .fa 
+{
+  float: left;
+  width: 25px;
+  color: #00a7dd;
+  font-size: 30px;
+}
+
+.contact-address ul li .address-phonee
+{
+
+  float: left;
+  width: 180px;
+  padding-left: 25px;
+}
+
+.contact-block 
+{
+padding-left: 25px;
+
+
+}
+
+.contact-area .form-control .contact-area textarea
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fdff;
+  border: 1px solid #a5d3eb;
+  padding: 10px 12px;
+  color: #bdbdbd;
+  height: 45px;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+.logo
+{
+  width:220px;
+  margin: 0;
 }
