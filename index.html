@@ -6,7 +6,7 @@
 
         <link href="./css/style.css" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <!-- jQuery library -->
         
@@ -18,7 +18,8 @@
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         
         <title>Document</title>
-        
+       
+    
       
         
 </head>
@@ -26,56 +27,59 @@
    
 <body>
     <header>
-    
-        <a href="" class ="logol"><img class="logo" src="./images/WIBBET.png"></a>
-        
-        <nav class="navbar">
-            <ul>
-                <li> <a href="#services">Services</a> </li>
-                <li class="nav-item"> <a href="">Courses</a> </li>
-                <li class="nav-item"> <a href="">Templates</a> </li>
-                <li class="nav-item"> <a href="">Testimonials</a></li>
-                <li class="nav-item"> <a href="">The Team</a> </li>
-                <li class="nav-item"> <a href="">Contact us</a> </li>
-            </ul>
-
-        </nav>
-
-
+        <nav class="navbar navbar-expand-lg">
+            <a href="" class ="logol"><img class="logo" src="./images/WIBBET.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
    </header>
-
 
     <section class='slider'>
         <ul class="slider-carousel" id="slider-carousel">
             <li class='img1'>
-                <h2></h2><span></span>
+                <div class="book">
+                <h2>Schedule an appointment Today!</h2><span><a>Book Now!</a></span>
                 <p></p>
-                <div class="main">
-                    <p class="sign text-center">Sign in</p>
-                    <form class="form1">
-                      <input class="un text-center" type="text"  placeholder="Username">
-                      <input class="pass text-center" type="password" placeholder="Password">
-                      <a class="submit text-center" >Sign in</a>
-                                
-                    </div>
-            
+                 </div>
+                
+              
             </li>
-            <li>
-                <h2>SllLide</h2>
-            </li>
-            <li>
-                <h2>SllL2ide</h2>
-            </li>
+
+
         </ul>
     </section>
 
-    <section class="intro-area white" id="intro">
+    <section class="intro-area" id="intro">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2>What do I offer?</h2>
+                    <h2>Products and Services</h2>
                     <div class="sub-heading">
-                        <p>I am nifninfidnhbihbhbhbi</p>
+                        <p> Here are a few details of what I can offer you.  </p>
                     </div>
                 </div>
             </div>
@@ -84,8 +88,11 @@
             <div class="col-sm-4">
                 <div class="intro-block">
                     <span><i class="intro-icon fab fa-affiliatetheme"></i></span>
-                    <h3>Services</h3>
-                    <p>hcihfiheifheihf fawhfiuwhf  ihweuhfiuh awi ahfihaweifh</p>
+                    <h3>Course Activities</h3>
+                    <p>The experience that I had at the University of Texas Web Development Program was difficult but rewarding. Not everyone can afford or have the time 
+                        to take a Bootcamp. Here I have developed courses that simulate exactly what you will experience in a real bootcamp.
+                         Take your time with out the stress of meeting deadlines or breaking the bank. 
+                    </p>
                 </div>
             </div>
         
@@ -93,16 +100,18 @@
         <div class="col-sm-4">
             <div class="intro-block">
                 <span><i class="intro-icon fab fa-affiliatetheme"></i></span>
-                <h3>Services</h3>
-                <p>hcihfiheifheihf fawhfiuwhf  ihweuhfiuh awi ahfihaweifh</p>
+                <h3>Web Development</h3>
+                <p>Need help building a site for that business idea? Book with me so we can sit and talk about the vision you have for the perfect web site. Browse 
+                    the templates I have created to get an idea of what you want.
+                </p>
             </div>
         </div>
 
         <div class="col-sm-4">
             <div class="intro-block">
                 <span><i class="intro-icon fab fa-affiliatetheme"></i></span>
-                <h3>Services</h3>
-                <p>hcihfiheifheihf fawhfiuwhf  ihweuhfiuh awi ahfihaweifh</p>
+                <h3>1 on 1 lessons</h3>
+                <p>Are you stuck on certain concepts of HTML, CSS or JavaScript. Schedule a date and we will walk through what it is that is keeping you stuck.</p>
             </div>
         </div>
 
@@ -172,11 +181,7 @@
                         </div>
                     </div>
                 
-                <div class="col-sm-4 col-lg-4">
-                    <div class="feature-mockup">
-                        <img src="" class="img-responsive">
-                    </div>
-                </div>
+                
             </div>
 
         </div>
@@ -524,8 +529,11 @@
 
 
     
-<script src="./js/main.js">
+<script src="./js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-</script>
+
 </body>
 </html>

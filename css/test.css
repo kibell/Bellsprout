@@ -23,12 +23,6 @@ header{
   width: 100%;
 }
 
-header nav button.navbar-toggler
-{
-background-color: grey;
-
-}
-
 .secondary
 {
   background: linear-gradient( to right, #2e424b, #656254 ) ;
@@ -111,7 +105,6 @@ border: solid green;
 color:white
 
 }
-
 
 
 
