@@ -8,12 +8,19 @@
 
 body{
   height: 3000px;
+  background-color: #2e2251 ;
 }
 
 
 p,  a{
   
 }
+
+.landing{
+text-align: center;
+
+}
+
 header{
 
   height: 112px;
@@ -21,17 +28,71 @@ header{
   position:fixed;
   z-index: 1;
   width: 100%;
+  
 }
 
-header nav button.navbar-toggler
+.fa-frog
 {
-background-color: grey;
+  color:green
+}
+
+.jumbotron
+{
+  background-image: url(../images/Sky\ and\ Clouds\ Zoom\ Virtual\ Background.gif);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.intromes
+{
+  margin-top: 250px;
+}
+
+
+.display-4 {
+  font-family: 'Fondamento', cursive;
+  color: black;
+  text-align: center;
+  opacity: 1;
+  
+}
+
+.lead
+{
+  text-align: center;
+  font-family: 'Fondamento', cursive;
+  font-size: 15px;
+
+}
+
+.bookcenter
+{
+  text-align: center;
+}
+
+.container
+{
+  max-width: 1160px;
+  
+}
+
+img
+{
+  vertical-align: middle;
+    max-width: 100%;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  margin: 25px;
 
 }
 
 .secondary
 {
-  background: linear-gradient( to right, #2e424b, #656254 ) ;
+  background: linear-gradient( to right, #2e424b, #6e467b ) ;
   box-shadow: 0px 0px 17px 0px;
   transition: all 0.5s ease-in;
 
@@ -63,14 +124,21 @@ display: inline-block;
 header nav ul li a{
 
   padding-right:30px;
-  color:#ffffff;
+  color:white;
   transition: all 0.5s;
   font-size: 15px;
   line-height: 15px;
   
+  
 
 }
 
+
+header nav ul.navbar-nav
+{
+  margin-left: auto;
+  
+}
 
 
 header nav ul li a:hover{
@@ -79,15 +147,37 @@ header nav ul li a:hover{
   color:rgb(9, 177, 9);
 }
 
-.img1{
-  background-image: url(../images/purple.png);
-  background-size: 100% 100%;
+.navbar-toggler
+{
+  margin:auto
+}
+
+.shape{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -3;
+
+  width: 45vw;
 }
 
 
+.this
+{
+margin-top: 150px;
+}
+
+.gifstart
+{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 6px;
+  
+}
 
 .slider, .slider ul, .slider ul li{
-  height:1010px;
+  height:950px;
   width:100%;
   color:white;
   text-align: center;
@@ -732,9 +822,10 @@ padding-left: 25px;
   border-radius: 0;
 }
 
+
 .logo
 {
-  width:220px;
+  width:300px;
   margin: 0;
 }
 
@@ -845,39 +936,8 @@ a {
 
   
 }
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: #807b6dde ;
+  }
 }
