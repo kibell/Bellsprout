@@ -39,15 +39,18 @@ header{
 .jumbotron
 {
   background-image: url(../images/Sky\ and\ Clouds\ Zoom\ Virtual\ Background.gif);
-  height: 650px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 
 .intromes
 {
   margin-top: 250px;
+  
 }
 
 
@@ -61,15 +64,21 @@ header{
 
 .lead
 {
-  text-align: center;
+ 
   font-family: 'Fondamento', cursive;
   font-size: 15px;
-
+text-align: center;
 }
 
-.bookcenter
+.bot
 {
   text-align: center;
+  width: 40%;
+  background-color: #4a8099c7;
+  height:50px;
+  font-family: 'Fondamento', cursive;
+  font-size: 25px;
+
 }
 
 .container
@@ -86,17 +95,21 @@ img
 
 .navbar-nav .nav-link {
   padding-right: 0;
-  margin: 25px;
+  margin: 20px;
+  font-family: 'Fondamento', cursive;
+  font-size: 25px;
 
 }
 
 .secondary
 {
-  background: linear-gradient( to right, #2e424b, #6e467b ) ;
+  background: linear-gradient( to right, #2e424b, #807b6dde ) ;
   box-shadow: 0px 0px 17px 0px;
   transition: all 0.5s ease-in;
 
 }
+ 
+
 
 ul
 {list-style: none;
@@ -278,19 +291,14 @@ color:white
 border: 10px solid #2e424b
 }
 
-section.intro-area .container
-{
-  background-color: #505050;
-}
+
 
 .intro-block:hover, .intro-block.active
 {background: #656254;
 
 }
 
-.intro-area{
-  background: linear-gradient( to left, #2e424b, #656254 ) ; ;
-}
+
 .intro-block:hover
 {
   transition: .6s ease;
