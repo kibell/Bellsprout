@@ -11,7 +11,10 @@
 :root{
   --main-font: 'Fondamento', cursive;
   --body-font: 'Cabin', sans-serif;
-  --primary-color: #ad4040
+  --navy-blue: #1F3750;
+  --forest-green: #294A41;
+  --emerald-green: #518060;
+  --spearmint: #89ACA0;
 }
 
 
@@ -50,6 +53,15 @@ p{
   padding: 0 2.4rem;
 }
 
+.sprout{
+  width: 5rem;
+}
+
+.imginfo {
+  border-radius: 100%;
+  width: 500px;
+}
+
 /*header*/
 header{
   width: 100%;
@@ -57,7 +69,7 @@ header{
   top: 0;
   left: 0;
   z-index: 1;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.774), transparent);
+  background-image: linear-gradient(to bottom, var(--navy-blue), transparent);
 
 }
 
@@ -66,7 +78,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
+  
   top:0
 }
 
@@ -88,9 +100,10 @@ header{
 }
 
 .logo{
-  width: 300px;
+  width: 20rem;
   animation: fadeDown 2s forwards;
-  margin-left: 36px;
+  text-align: center;
+ 
 }
 
 .nav-list{
@@ -100,7 +113,7 @@ header{
   top:0;
   left:0;
   height: 100vh;
-  background-color: rgb(92, 4, 4);
+  background-color: var(--forest-green);
   padding: 4.4rem;
   display: flex;
   flex-direction: column;
@@ -108,6 +121,8 @@ header{
   z-index: 1250;
   transform: translateX(-100%);
   transition: transform .5s;
+  font-family: var(--main-font);
+  margin-top: 10px;
 }
 
 .nav::before{
@@ -116,11 +131,10 @@ header{
   top:0;
   left: 0;
   width: 100vw;
-  height: 100vh;
-
+  
   z-index: 1000;
   opacity: 0;
-  transform: scale(0);
+  
   transition: opacity .5s;
 }
 
@@ -140,7 +154,7 @@ header{
 
 .open .nav::before{
   opacity: 1;
-  transform: scale(1);
+  
 }
 
 .nav-item{
@@ -165,7 +179,7 @@ header{
 .hero{
   width: 100%;
   height:100vh;
-  background: url('../images/Sky\ and\ Clouds\ Zoom\ Virtual\ Background.gif') center no-repeat;
+  background: url('../images/blue\ moutain.png') center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -175,7 +189,7 @@ header{
 .sub-headline{
   font-size: 8.5rem;
   font-family: var(--main-font);
-  color: gold;
+  color: var(--navy-blue);
   font-weight: 100;
   line-height: .4;
   letter-spacing: 2px;
@@ -354,7 +368,7 @@ margin-right: -2px;
 
 .body-btn:hover,.body-btn:focus
 {
-  color: var(--primary-color);
+  color: var(--misty-blue);
 }
 
 .body-btn:hover::before,
@@ -364,7 +378,13 @@ margin-right: -2px;
 
 
 .templates{
-  background: url(../images/purple.png) center no-repeat;
+  background: url(../images/knedrick\ quote.png) center no-repeat;
+  background-size: cover;
+  height: 600px;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 
 }
@@ -380,6 +400,7 @@ margin-right: -2px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
+  
 }
 
 .discover-courses .info-des
@@ -387,6 +408,16 @@ margin-right: -2px;
   padding-top: 3rem;
   margin-bottom: 0;
 
+}
+
+.intro-block h3{
+ text-align: center;
+ font-family: var(--main-font);
+ font-size: 28px;
+}
+
+.intro-block img{
+  border: 10px solid var(--emerald-green);
 }
 
 .perfect-blend{
