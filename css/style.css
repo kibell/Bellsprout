@@ -38,7 +38,7 @@ header{
 
 .jumbotron
 {
-  background-image: url(../images/Sky\ and\ Clouds\ Zoom\ Virtual\ Background.gif);
+  background-image: url(../images/feathersite\ theme.gif);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ text-align: center;
 {
   text-align: center;
   width: 40%;
-  background-color: #4a8099c7;
+  color: blue;
   height:50px;
   font-family: 'Fondamento', cursive;
   font-size: 25px;
