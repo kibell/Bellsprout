@@ -188,7 +188,10 @@
                             Click on the icons to learn more about the details of what you can expect to learn 
                             in the courses.
                         </p>
-                        
+                        <div id="switch" class="animate-left">
+                            <img class="imgSwitch" src="">
+                        </div>
+                       
 
                         </div>
                     </div>
@@ -206,19 +209,28 @@
     </section>
 
     <section class="perfect-blend between">
+        
         <div class="container">
+           <div class="row">
+
+            <img class="kb animate-left" src="./images/kb.png">
+           
             <div class="global-headline">
                 <div class="animate-top">
+                
                     <h2 class="sub-headline">
-                        <span class="first-letter">D</span>iscover
+                        <span class="first-letter">A</span>bout Me
                     </h2>
-                    <h1 class="headline">Blend</h1>
+                    <h1 class="headline"></h1>
                 </div>
+                <br>
                 <div class="animate-bottom">
                     <h1 class="headline headline-dark"></h1>
-                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+
+                        <a class="btn-two btn">View My Portfolio</a>
                 </div>
                 </div>
+        </div>
         </div>
     </section>
 
@@ -229,13 +241,15 @@
                 <div class="info-des padding-right animate-left">
                     <div class="global-headline">
                         <h2 class="sub-headline">
-                            <span class="first-letter">S</span>ervices
+                            <span class="first-letter">T</span>estimonials
                         </h2>
+
+                        <br>
                       
-                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                       
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nisi aperiam ullam harum similique? Distinctio harum in esse architecto velit necessitatibus laborum eveniet obcaecati cum quo hic excepturi maiores, similique, ratione consequatur tempora dicta temporibus et consequuntur saepe molestiae error iure praesentium voluptatum. Dicta consequuntur ipsam inventore quae, error sequi.</p>
-                    <a href="#" class="btn body-btn">About me</a>
+                    
                 </div>
                 <div class="image-group">
                     <img class="animate-top" src="./images/ud.png">
@@ -256,8 +270,8 @@
                 <a href="#hero"><i class="fas fa-chevron-up"></i> </a>
             </div>
             <div class="footer-content  animate-up"> 
-                <h4>About Bell</h4>
-                <div class="asterisk"><i class="fas fa-asterisk"></i>
+                <h4>Bellsprout</h4>
+                
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos incidunt, rerum minima deleniti voluptatibus quae itaque atque obcaecati eum aliquam. Necessitatibus in praesentium est quasi repudiandae laboriosam provident esse nulla.</p>
             </div>
             <div class="footer-content-divider animate-bottom">
@@ -307,10 +321,17 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
+
+ 
+
  $('.fa-html5 ').on('click',function() {
         console.log("html")
+        var Htmlpic = './images/HTML (2).png'
         $('.desTitle').text("HTML")
         $('.des').text("Throughout my time as a Business Analyst I spent a fraction of my time Testing and making updates to the Benefits Portal Website. My knowledge of HTML increased with the education I have recieved at the UT coding academy.")
+        $('.imgSwitch').attr('src', Htmlpic)
+     
+        
       });
 
       $('.fa-css3-alt').on('click',function() {

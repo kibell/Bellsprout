@@ -29,6 +29,10 @@ section{
   padding: 3.9rem 0;
 }
 
+img.kb{
+  width:25rem;
+}
+
 img{
   width: 100%;
   max-width: 100%
@@ -44,6 +48,14 @@ a{
 
 p{
   font-size: 1.6rem;
+}
+
+.imgSwitch{
+  animation: fadeUp ease 15s;
+  -webkit-animation: fadeUp ease 15s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
 }
 
 .container{
@@ -466,10 +478,19 @@ a.cntbtn{
 }
 
 .perfect-blend{
-  background: url(../images/purple.png) center no-repeat;
+ 
   background-size: cover;
+  height: 410px;
+  background: linear-gradient(to bottom, var(--navy-blue), transparent)
 
 }
+
+.culi-delight{
+  background: linear-gradient(to top, var(--navy-blue), transparent)
+}
+
+
+
 
 footer{
   padding: 7.9rem 0;
@@ -649,7 +670,12 @@ footer{
       display: flex;
       align-items: center;
     }
+
+    .row .kb{
+      width: 35rem;
+    }
 }
+
 
 
 
@@ -786,4 +812,50 @@ a.btn, button.btn{
     opacity: 1;
     transform: rotate(-360);
   }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
 }
