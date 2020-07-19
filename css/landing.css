@@ -179,8 +179,9 @@ header{
 
 .discover
 {
-  background-image: linear-gradient(to bottom , var(--spearmint) ,transparent)
+  background-image: linear-gradient(to top , var(--spearmint) ,transparent)
 }
+
 
 .hero{
   width: 100%;
@@ -420,6 +421,10 @@ background-color: var(--emerald-green);
   padding-top: 3rem;
   margin-bottom: 0;
 
+}
+
+.discover-courses{
+  background-image: linear-gradient(to top , var(--spearmint) ,transparent)
 }
 
 .intro-block h3{
