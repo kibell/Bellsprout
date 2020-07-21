@@ -25,9 +25,7 @@ html{
   scroll-behavior: smooth;
 }
 
-section{
-  padding: 3.9rem 0;
-}
+
 
 img.kb{
   width:25rem;
@@ -342,6 +340,11 @@ background-color: var(--emerald-green);
 
 }
 
+.templates .global-headline {
+  margin-top: 6.9rem;
+
+}
+
 .global-headline .asterisk{
   color:var(--body-font);
   margin-top: 2.4rem 0;
@@ -411,17 +414,23 @@ a.cntbtn{
   text-align: center;
 }
 .templates{
-  background: url(../images/knedrick\ quote.png) center no-repeat;
+  
   background-size: cover;
+  
   height: 600px;
   min-height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+background:linear-gradient(to bottom , var(--spearmint) ,transparent);
   background-size: cover;
 
 }
 
+
+
+
+.card .card-img-top{
+width: 100%;
+
+}
 .between{
 
   min-height: 25vh;
@@ -456,7 +465,7 @@ a.cntbtn{
 }
 
 .discover-courses{
-  background-image: linear-gradient(to top , var(--spearmint) ,transparent)
+  background-image: linear-gradient(to top , var(--navy-blue) ,transparent)
 }
 
 .fab:hover{
@@ -486,7 +495,13 @@ a.cntbtn{
 }
 
 .culi-delight{
-  background: linear-gradient(to top, var(--navy-blue), transparent)
+  background: linear-gradient(to top, var(--emerald-green), transparent)
+}
+
+.card{
+  margin-left: 25px;
+  margin-top: 25px;
+  background: linear-gradient(to bottom, var(--navy-blue), transparent);
 }
 
 
