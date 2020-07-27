@@ -1,0 +1,348 @@
+
+:root{
+    --main-font: 'Fondamento', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --grayishPrim: #af7c74;
+    --goldieSec:#ded7cf;
+    --third: 	#c99e87;
+    --fourth: 	#d8e3e8;
+    --fifthCw: 	#ded7cf;
+  }
+
+
+.navSec{
+   height: 15%;
+}
+
+.experience{
+    background:linear-gradient(to bottom,var(--goldieSec), white )
+
+}
+
+.cv,.weather{
+    transition: 1s ease;
+}
+
+.skills{
+    background-color: black;
+    color: white;
+}
+
+.weddingPic{
+    
+    background:linear-gradient(to bottom,	var(--fifthCw), white );
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.project{
+    background-image: url(../images/photographer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    height: 700px;
+    
+}
+
+.secondSec .cv h1:hover, .secondSec .cv:hover{
+    opacity: 1;
+}
+
+.borderBox{
+    border: solid 2.5px black
+}
+
+.headerSec .quote h1{
+
+    text-align: center;
+}
+
+
+
+.name, .education{
+   
+    background:linear-gradient(to bottom, var(--goldieSec), white)
+}
+
+.education, .experience {
+    z-index: 1500;
+}
+
+.navSec ul li {
+    font-size: 25px;
+}
+
+.navColor{
+    
+    background:linear-gradient(to bottom, var(--fourth), white )
+}
+
+.myPic{
+    background:linear-gradient(to bottom,	var(--fifthCw), white )
+}
+
+.quote{
+   
+    background:linear-gradient( to top, var(--fourth), white) ;
+
+}
+
+
+
+
+.myImg{
+    width: 100%; text-align: center; margin-top:0%;
+
+
+}
+
+.weather{
+    background-image: url(./images/houston.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+
+}
+
+.cv{
+    background:linear-gradient(to bottom,	var(--fourth), white )
+}
+
+
+.quote h1{
+    width: 80%; text-align: center; margin-top:20%;
+}
+
+.quote p{
+    font-size: 25px;
+    margin: 0rem 10rem;
+}
+
+.quote a{
+    font-size: 25px;
+    margin: 0rem 5rem ;
+    
+    text-decoration: none;
+
+}
+h2{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px #777;
+    margin: 5px;
+}
+
+
+
+.emp{
+    width: 15rem;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+    height: 15rem;
+}
+
+.logix{
+    width: 15rem;
+    text-align: center;
+    margin: auto;
+    height: 15rem;
+}
+
+.code{
+    color: yellow
+}
+
+.btn {
+    
+   
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+
+  .btn {
+    
+   
+    text-align: center;
+    
+  
+    z-index: 1;
+  }
+
+.card:hover  .btn {
+
+   
+
+opacity: 1;
+
+}
+
+
+.card:hover .card-body {
+background: rgba(55, 84, 93, 0.664);
+transition:  0.5s ease;
+}
+
+
+
+/* .fab {
+margin: 20px;
+width: 100%;
+float: left;
+clear: both;
+}
+.fas {
+    margin: 20px;
+    width: 100%;
+    float: left;
+    clear: both;
+    } */
+
+/* 
+.fab:hover{
+    transition:  2.0s ease;
+    transform: scale(1.5);
+    
+}
+
+.fas:hover{
+    transition:  2.0s ease;
+    transform: scale(1.5);
+
+} */
+
+.fa-html5:hover{
+    color:orange
+}
+
+.fa-css3-alt:hover{
+    color: skyblue;
+}
+
+.fa-js-square{
+    color:darkgoldenrod
+}
+.fa-bootstrap:hover{
+    color:purple
+}
+
+.fa-node:hover{
+    color: limegreen
+}
+
+.fab,  .fas {
+    color: rgb(13, 52, 116);
+    text-decoration: none;
+
+    border-radius: 50%;
+}
+/* 
+a:hover 
+{
+     color:rgb(253, 218, 18); 
+     text-decoration:none; 
+     cursor:pointer;  
+} */
+
+
+
+.fa-node-js:hover{
+    color: green;
+}
+
+.fa-js:hover{
+    color:yellow
+}
+
+.fa-git-alt:hover{
+    color: tomato;
+}
+
+.fa-gripfire:hover{
+color: orange;
+}
+
+.fa-language:hover{
+    color: blue;
+}
+
+.sql:hover{
+    color: skyblue;
+}
+
+.navy a{
+text-decoration: none;
+color: black;
+font-family: 'Caveat', cursive;
+
+
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+}
+
+.icon img{
+    width: 9rem ;
+}
+
+.iconN img{
+    width: 9rem;
+}
+
+
+
+.scroll-left {
+ 	
+ overflow: hidden;
+ position: relative;
+ z-index: 1;
+}
+.scroll-left {
+ position: relative;
+ width: 100%;
+ z-index: -10;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateY(100%);
+ -webkit-transform:translateY(100%);	
+ transform:translateY(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 10s linear infinite;
+ animation: scroll-left 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateY(100%); }
+ 100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateY(100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateY(100%); /* Browser bug fix */
+ -webkit-transform: translateY(100%); /* Browser bug fix */
+ transform: translateY(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(-100%); /* Browser bug fix */
+ -webkit-transform: translateY(-100%); /* Browser bug fix */
+ transform: translateY(-100%); 
+ }
+}
+
