@@ -530,6 +530,9 @@ footer{
   color: orange;
 }
 
+.nav-tabs{
+  background-color: #1F3750;
+}
 
 .newletter-form{
   width: 100%;

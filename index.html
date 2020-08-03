@@ -63,6 +63,7 @@
     </header>
 
     <section class ="hero" id="hero">
+        
         <div class="container">
             <h2 class="sub-headline">
                 
@@ -83,6 +84,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
     
 
@@ -173,23 +175,23 @@
 
     </section>
 
-    <section class="templates between">
-        <div class="global-headline">
-            <div class="animate-top">
-                <h2 class="sub-headline">
-                    <span class="first-letter">B</span>logs
-                </h2>
-               
-            </div>
-            <div class="animate-bottom">
-                <h1 class="headline headline-dark"></h1>
-                
-            </div>
-            </div>
-            
-                
-               
+    <section class="discover-blogs">
+        <div class="container">
+            <div class="course-info">
+                <div class="image-group  padding-right animate-left">
+
+                </div>
+                <div class="info-des animate-rig">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">B</span>logs
+                        </h2>
+                        <br>
+                      
+                    </div>
         
+            </div>
+        </div>
     </section>
 
     <section class="discover-courses">
@@ -221,21 +223,26 @@
                             in the courses.
                         </p>
                         <div id="switch" class="animate-left">
-                            <img class="imgSwitch" src="">
+                            <a class="course1" href=""> </a>
+                            <br>
+                            <a class="course2" href=""> </a>
+                            <br>
+                            <a class="course3" href=""> </a>
+                            <br>
+                            <a class="course4" href=""> </a>
+                            <a class="course5" href=""> </a>
+                            <a class="course6" href=""> </a>
+                            
                         </div>
-                       
+                        <a href="" class="btn body-btn cntbtn">View all Courses</a>
 
                         </div>
                     </div>
                     
                     
                    
-                    <a href="" class="btn body-btn cntbtn">View all Courses</a>
-               
-
-                
-
-
+                   
+        
             </div>
         </div>
     </section>
@@ -267,13 +274,13 @@
     </section>
 
 
-    <section class="culi-delight">
+    <section class="culi-delight between">
         <div class="container">
             <div class="info">
                 <div class="info-des padding-right animate-left">
                     <div class="global-headline">
                         <h2 class="sub-headline">
-                            <span class="first-letter">T</span>estimonials
+                            
                         </h2>
 
                         <br>
@@ -360,8 +367,14 @@
         console.log("html")
         var Htmlpic = './images/HTML (2).png'
         $('.desTitle').text("HTML")
-        $('.des').text("Throughout my time as a Business Analyst I spent a fraction of my time Testing and making updates to the Benefits Portal Website. My knowledge of HTML increased with the education I have recieved at the UT coding academy.")
-        $('.imgSwitch').attr('src', Htmlpic)
+        $('.des').text("HTML is the foundation for all Websites, We will walk through the fundamentals of HTML. I primarily use Git Bash for navigation if you are not familiar with GIT commands I recommend you start with those courses")
+        $('.course1').text( '01 What is HTML')
+        $('.course1').attr('href', '#')
+        $('.course2').text( '02 HTML TAGS')
+        $('.course2').attr('href', '#')
+        $('.course3').text( '03 My First HTML')
+        $('.course3').attr('href', '#')
+        
      
         
       });
